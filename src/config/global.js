@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Tecnologías emergentes y disruptivas',
+    descripcionCurso:
+      '​​​La innovación que conlleva las tecnologías emergentes está ofreciendo cada vez más la creación de productos y servicios por parte de las empresas u organizaciones que hacen un gran aporte a la sociedad. Tecnologías como IoT, <i>Blockchain</i>, <i>Machine learning</i>, <i>Deep learning</i>, traen grandes desarrollos.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/3.png'),
       },
     ],
   },
@@ -31,28 +36,55 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Internet de las cosas (loT)',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: '<i>Blockchain</i>',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Historia',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Aplicaciones',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Desarrollos',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: '<i>Machine learning</i>',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Conceptos',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Aplicaciones',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: '<i>Deep learning</i>',
+            hash: 't_3_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,32 +134,57 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '<i>Blockchain</i>',
+      referencia: 'IBM. (s.f.). <i>What is blockchain?</i>',
+      tipo: 'Página web',
+      link: 'https://www.ibm.com/topics/blockchain',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Desarrollos',
+      referencia:
+        'Ayudaley. (s.f.). Google Glasses 2020: Resurgen las gafas inteligentes de Google.',
+      tipo: 'Página web',
+      link: 'https://ayudaleyprotecciondatos.es/2020/07/21/google-glasses',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Criptografía',
+      significado:
+        'es el arte de escribir con clave secreta o de un modo enigmático.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Criptomoneda',
+      significado: 'son monedas digitales que se intercambian online.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Hinestroza, D. (2018). El machine learning a través de los tiempos y los aportes a la humanidad. Universidad Libre Seccional Pereira.',
+      link:
+        'https://repository.unilibre.edu.co/bitstream/handle/10901/17289/EL%20MACHINE%20LEARNING.pdf?sequence=1&isAllowed=y',
+    },
+    {
+      referencia:
+        'Nakamoto, S. (2008). Bitcoin: un sistema de efectivo electrónico peer to peer..',
+      link: 'https://bitcoin.org/files/bitcoin-paper/bitcoin_es.pdf',
+    },
+    {
+      referencia:
+        'Lovelle, J., Molano, J. & Marin, C. (2015). Introducción al Internet de las cosas. Redes de Ingeniería, 6.',
+      link:
+        'https://revistas.udistrital.edu.co/index.php/REDES/article/view/8505/10464',
+    },
+    {
+      referencia:
+        'Tapscott, D. & Tapscott, A. (2017). La revolución blockchain. Descubre cómo esta nueva tecnología transformará la economía global. Ediciones Deusco.',
+      link:
+        'https://static0planetadelibroscommx.cdnstatics.com/libros_contenido_extra/35/34781_La_revolucion_blockchain.pdf',
+    },
+    {
+      referencia:
+        'Vidal, M., Carnota, O. & Rodríguez, A. (2019). Tecnologías e innovaciones disruptivas. Educación Médica Superior, 33(1).',
     },
   ],
   creditos: [
@@ -150,8 +207,20 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Zulema Yidney León Escobar',
+          cargo: 'Experta Temática',
+          centro:
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Jonathan Guerrero Astaiza',
+          cargo: 'Experto Temático',
+          centro:
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -160,23 +229,23 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Carlos Julian Ramirez Benitez',
           cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edward Leonardo Pico Cabra',
           cargo: 'Desarrollador Fullstack',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Edgar Mauricio Cortes',
+          cargo: 'Actividad Didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
+          nombre: 'Daniela Muñoz Bedoya',
+          cargo: 'Animador y Productor Multimedia',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
