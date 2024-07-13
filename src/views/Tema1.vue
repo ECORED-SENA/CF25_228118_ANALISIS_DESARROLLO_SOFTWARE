@@ -29,7 +29,7 @@
       
             .row.justify-content-center.align-items-center
               .col.my-3
-                p(data-aos="fade-down") El IoT en la actualidad, está organizado por una recolección extendida de diferentes redes y con propósitos distintos, por ejemplo, los carros modernos cuentan con una cantidad variada de redes para moderar la puesta en marcha del motor, el monitoreo de comunicación, los sistemas de seguridad, etc., de manera parecida los centros comerciales, las oficinas, los apartamentos manejan diferentes sistemas que permiten controlar la calefacción, el aire acondicionado, los sistemas de seguridad, etc., en tanto que el IoT avanza, todas estas redes quedarán conectadas incorporando medidas de análisis, administración y seguridad, haciendo del IoT una herramienta todavía más poderosa.                
+                p(data-aos="fade-down") El IoT en la actualidad, está organizado por una recolección extendida de diferentes redes y con propósitos distintos, por ejemplo, los carros modernos cuentan con una cantidad variada de redes para moderar la puesta en marcha del motor, el monitoreo de comunicación, los sistemas de seguridad. De esta manera parecida, los centros comerciales, las oficinas, los apartamentos manejan diferentes sistemas que permiten controlar la calefacción, el aire acondicionado, los sistemas de seguridad, etc. En tanto que el IoT avanza, todas estas redes quedarán conectadas incorporando medidas de análisis, administración y seguridad, haciendo del IoT una herramienta todavía más poderosa.                
               .col-lg-auto.my-3                  
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/6.png', alt='')   
 
@@ -83,7 +83,7 @@
                 .row.justify-content-center.p-2
                   .col-lg-4.my-3.col-md-auto
                     h4.t2 Medicina 
-                    p Sus objetivos son detectar en una persona sus signos vitales, así como las variaciones para suministro de medicinas. Aunque la orientación es más a los humanos, es posible también monitorear el estado de salud de los animales domésticos. La incorporación de IoT en el sector de la salud transformará el cuidado médico, porque los centros de atención serán mucho más eficientes, brindando al personal de la salud datos muy importantes de los pacientes en tiempos más cortos, para poder agilizar los procesos médicos.   
+                    p Sus objetivos son detectar en una persona sus signos vitales, así como las variaciones para el suministro de medicinas. Aunque la orientación es más a los humanos, es posible también monitorear el estado de salud de los animales domésticos. La incorporación de IoT en el sector de la salud transformará el cuidado médico, porque los centros de atención serán mucho más eficientes, brindando al personal de la salud datos muy importantes de los pacientes en tiempos más cortos, para poder agilizar los procesos médicos.   
                   .col-lg-7.my-3.mb-4.mb-md-0
                     img.img-a.img-t(src='@/assets/curso/temas/14.png', alt="") 
 

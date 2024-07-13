@@ -41,7 +41,7 @@
                     div(titulo="2003")
                       p Se hace la publicación de un estudio referente a un sistema distribuido de ficheros que recibe el nombre de “Google File System” (GFS), y toma más fuerza el año 2004, debido a que Google muestra la creación de un nuevo paradigma llamado “Map & Reduce”, enfocado al procesamiento distribuido.   
                     div(titulo="2006")
-                      p Sigue el crecimiento y apoyando Google este progreso, crea “Cloud Bigtable”, servicio de bases de datos NoSQL de Big Data, culminando con Hadoop que es una plataforma “Big Data Open Source”.  
+                      p Sigue el crecimiento y Google apoyando este progreso, crea “Cloud Bigtable”, servicio de bases de datos NoSQL de Big Data, culminando con Hadoop que es una plataforma “Big Data Open Source”.  
                     div(titulo="2010 en adelante ")
                       p Sigue el crecimiento y apoyando Google este progreso, crea “Cloud Bigtable”, servicio de bases de datos NoSQL de Big Data, culminando con Hadoop que es una plataforma “Big Data Open Source”.    
                     div(titulo="Actualidad")

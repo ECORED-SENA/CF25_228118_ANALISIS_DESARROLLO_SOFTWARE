@@ -29,7 +29,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/21.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Cuando una persona llamada Pepito quiere realizar un envío de un millón de pesos a otra persona llamada Mario, normalmente se hace por medio de un banco, donde el banco actúa como intermediario de esta transacción, haciendo una centralización efectiva para hacer el movimiento de un lado al otro. En este proceso, ni Pepito ni Mario intervienen, son totalmente dependientes del banco y a las condiciones de este como comisiones, por ejemplo, es aquí donde el #[i blockchain] o cadena de bloques interviene, porque su principal objetivo es eliminar los intermediarios, haciendo una gestión totalmente descentralizada, donde el control ya no va a ser de los bancos sino de los usuarios, convirtiéndose estos en una conexión de muchos nodos del banco.   
+            p.mb-0 Cuando una persona llamada Pepito quiere realizar un envío de un millón de pesos a otra persona llamada Mario, normalmente se hace por medio de un banco, donde el banco actúa como intermediario de esta transacción, haciendo una centralización efectiva para hacer el movimiento de un lado al otro. En este proceso, ni Pepito ni Mario intervienen, son totalmente dependientes del banco y de las condiciones de este como comisiones, por ejemplo, es aquí donde el #[i blockchain] o cadena de bloques interviene, porque su principal objetivo es eliminar los intermediarios, haciendo una gestión totalmente descentralizada, donde el control ya no va a ser de los bancos sino de los usuarios, convirtiéndose estos en una conexión de muchos nodos del banco.   
 
     p(data-aos="fade-down") En resumen, se puede decir que el #[b #[i blockchain]] o cadena de bloques, es un gran libro digital de cuentas en donde sus bloques (registros), se encuentran conectados y cifrados, con el objetivo de proteger la privacidad y la seguridad de cualquier tipo de transacciones. 
 
@@ -72,7 +72,7 @@
                 .row.justify-content-center.p-2
                   .col-lg-4.my-3.col-md-auto
                     h4.t2 Nacimiento del Bitcoin
-                    p Desde los años 2008 al 2013 emerge el bitcoin y las transacciones, es importante aclarar que no hay que confundir el concepto de #[i blockchain] y bitcoin, porque muchas personas piensan que es lo mismo, y no es así, debido a que #[i blockchain] es la tecnología en que se fundamentan las aplicaciones y una de ellas es la criptomoneda. El nacimiento del bitcoin fue en 2008 y fue la primera aplicación que incluía la tecnología #[i blockchain], la definición dada por Satoshi Nakamoto en su artículo fue que se trataba de un sistema eléctrico peer to peer (punto a punto). 
+                    p Desde los años 2008 al 2013 emerge el bitcoin y las transacciones, es importante aclarar que no hay que confundir el concepto de #[i blockchain] y bitcoin, porque muchas personas piensan que es lo mismo, y no es así, debido a que #[i blockchain] es la tecnología en que se fundamentan las aplicaciones y una de ellas es la criptomoneda. El nacimiento del bitcoin fue en 2008 y fue la primera aplicación que incluía la tecnología #[i blockchain], la definición dada por Satoshi Nakamoto en su artículo fue que se trataba de un sistema eléctrico #[i peer to peer] (punto a punto). 
                   .col-lg-7.my-3.mb-4.mb-md-0
                     img.img-a.img-t(src='@/assets/curso/temas/26.png', alt="") 
                 .row.justify-content-center.p-2
@@ -166,20 +166,20 @@
                 h5.code2 Global 
                 p.mb-0.code Solo es necesario Internet para que la información pueda ser vista. 
 
-    p(data-aos="fade-down") Lo invitamos a consultar el siguiente video, el cual  presenta cómo funciona #[b #[i bitcoin]]: 
+    p(data-aos="fade-down") Lo invitamos a consultar el siguiente video, el cual  presenta cómo funciona #[b bitcoin]: 
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-12(data-aos="fade-left")     
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/xQSIOumoX94?si=5xI7gLaC7MOQkm6F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
 
     .row.justify-content-center.mb-5           
       .col-lg-10
         .bg3.p-4.brad 
           .row.justify-content-center         
             .col-lg-9
-              h5(data-aos="fade-down") A continuación, se describen unos puntos de funcionamiento del #[b #[i bitcoin]]:
+              h5(data-aos="fade-down") A continuación, se describen unos puntos de funcionamiento del #[b bitcoin]:
 
               ul.lista-ul--color.fa-ul.mb-0.ms-0
                 li 
@@ -196,7 +196,7 @@
                   span La recompensa que gana el primero que realice la validación, es de 50 bitcoins. 
                 li 
                   i.fas.fa-cube.color1
-                  span Para agregar un bloque nuevo ,la persona que lo genere lo debe enviar al resto de la red. 
+                  span Para agregar un bloque nuevo, la persona que lo genere lo debe enviar al resto de la red. 
                 li 
                   i.fas.fa-cube.color1
                   span No se pueden modificar ni borrar los bloques, estos son permanentes.                  
@@ -230,7 +230,7 @@
                   .col-12
                     img.img-t(src='@/assets/curso/temas/41.png' alt='')
                 h5.code2 Sector bancario  
-                p.mb-0.code Por medio de las criptodivisas, los bancos pueden realizar transacciones a un costo menor ,con una mayor eficiencia, segura y sin intermediarios.    
+                p.mb-0.code Por medio de las criptodivisas, los bancos pueden realizar transacciones a un costo menor, con una mayor eficiencia, segura y sin intermediarios.    
               .tarjeta.bgcard.ts.h-100.p-4
                 .row.justify-content-center.mb-3
                   .col-12
@@ -264,7 +264,7 @@
               img.img-t.img-a(src='@/assets/curso/temas/46.png' alt='')
             .col
               h5 IBM Food Trust
-              p.mb-0 Es una plataforma de intercambio soportado en #[i blockchain] ,que favorece a los usuarios participantes de una red de alimentos para mayoristas, productores y distribuidores, la cual permite administrar datos de transacciones, procesamientos y procedencia de los alimentos, entre otros, logrando reducir la pérdida de los alimentos.      
+              p.mb-0 Es una plataforma de intercambio soportada en #[i blockchain], que favorece a los usuarios participantes de una red de alimentos para mayoristas, productores y distribuidores, la cual permite administrar datos de transacciones, procesamientos y procedencia de los alimentos, entre otros, logrando reducir la pérdida de los alimentos.      
 
       .col-lg-6.my-3(data-aos="fade-right")
         .bg3.p-4.brad.h-100   
@@ -273,7 +273,7 @@
               img.img-t.img-a(src='@/assets/curso/temas/47.png' alt='')
             .col
               h5 Pylon Network 
-              p.mb-0 Desarrollado por una empresa española, permite la venta y compra de energía renovable sin intermediarios, este desarrollo lanzó su proyecto de código abierto (open-source), concretamente para las condiciones del sector energético.    
+              p.mb-0 Desarrollado por una empresa española, permite la venta y compra de energía renovable sin intermediarios, este desarrollo lanzó su proyecto de código abierto (#[i open-source]), concretamente para las condiciones del sector energético.    
 
       .col-lg-6.my-3(data-aos="fade-left")
         .bg3.p-4.brad.h-100   
