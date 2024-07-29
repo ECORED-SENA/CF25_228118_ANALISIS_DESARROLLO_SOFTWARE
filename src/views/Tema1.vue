@@ -14,7 +14,8 @@
             .row.justify-content-center.mb-4          
               .col-lg-8.my-3
                 .bg3.p-3
-                  p(data-aos="fade-down").mb-0 Debido a la gran importancia y progreso que ha logrado, la IoT es valorada como una de las tecnologías de mayor impacto al 2025, debido a que se intuye que a una gran cantidad y variedad de objetos se les incorporará variados tipos de sensores que estarán conectados a Internet, produciendo un flujo de datos muy grande, el cual debe ser tratado, almacenado y expuesto de una forma sencilla y fácil de entender. (Molano, 2015)                
+                  p(data-aos="fade-down").mb-0 Debido a la gran importancia y progreso que ha logrado, la IoT es valorada como una de las tecnologías de mayor impacto al 2025, debido a que se intuye que a una gran cantidad y variedad de objetos, se les incorporará variados tipos de sensores que estarán conectados a Internet, produciendo un flujo de datos muy grande, el cual debe ser tratado, almacenado y expuesto de una forma sencilla y fácil de entender.
+
               .col-lg-4.my-3
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/4.png', alt='')   
 

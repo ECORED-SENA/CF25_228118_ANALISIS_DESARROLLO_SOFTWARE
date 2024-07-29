@@ -17,7 +17,7 @@
               .col-lg-8.my-3
                 p(data-aos="fade-down") Las tecnologías emergentes o disruptivas facilitan la creación de un marco de innovación que es aprovechado por organizaciones para la creación de nuevos servicios y productos. La palabra disruptiva viene del francés y se refiere a un cambio concluyente o violento. Es así como cada tecnología que genera transformaciones intensas en los conocimientos de productos o servicios, es una tecnología disruptiva. 
 
-                p(data-aos="fade-down").mb-0 A medida que avanza el tiempo ,avanzan también las innovaciones tecnológicas y surgen nuevos términos utilizados para distinguir la convergencia y emergencia de nuevas tecnologías, con potencial suficiente para manifestarse como tecnologías disruptivas.                   
+                p(data-aos="fade-down").mb-0 A medida que avanza el tiempo, avanzan también las innovaciones tecnológicas y surgen nuevos términos utilizados para distinguir la convergencia y emergencia de nuevas tecnologías, con potencial suficiente para manifestarse como tecnologías disruptivas.                   
               .col-lg-4.my-3
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/2.png', alt='') 
 
