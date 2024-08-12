@@ -184,6 +184,18 @@ export default {
     },
     {
       referencia:
+        'Nalda, V. (s.f.). Machine Learning: Los orígenes y la evolución',
+      link:
+        'https://www.futurespace.es/machine-learning-los-origenes-y-la-evolucion/',
+    },
+    {
+      referencia:
+        'Jurado, M. (2024). ¿Qué es el Aprendizaje por Refuerzo y Aprendizaje por Imitación, y su Importancia con la Nueva IA?',
+      link:
+        'https://medium.com/@martin.jurado.p/aprendizaje-por-refuerzo-y-aprendizaje-por-imitaci%C3%B3n-ceba692a561a',
+    },
+    {
+      referencia:
         'Vidal, M., Carnota, O. & Rodríguez, A. (2019). Tecnologías e innovaciones disruptivas. Educación Médica Superior, 33(1).',
     },
   ],

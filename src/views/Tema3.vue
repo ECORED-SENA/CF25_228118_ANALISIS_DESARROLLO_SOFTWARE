@@ -80,9 +80,9 @@
     .titulo-sexto.color-acento-contenido
       h5 Figura 4.
       span Inteligencia artificial vs. #[i machine learning] 
-    .bg9.p-4.mb-5
+    .bg9.p-4.mb-1
       img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/53.svg', alt='La imagen presenta la relación entre inteligencia artificial, entendida como la combinación de algoritmos, con el propósito de crear máquinas que presenten las mismas capacidades que el ser humano; este es el concepto más amplio que el machine learning; sus funciones se centran en imitar las funciones cognitivas de los humanos, haciendo uso de la computación; en cuanto a los algoritmos, se trata de realizar tareas basadas en algoritmos de una manera “inteligente”. Machine learning que es la disciplina científica del ámbito de la inteligencia artificial que crea sistemas que aprenden automáticamente, es un subconjunto de la inteligencia artificial; en cuanto a los algoritmos, se adaptan a medida que aprenden más sobre la información que procesan. Es de aprendizaje automático, se trata de la capacidad de las máquinas para recibir un conjunto de datos y aprender por sí mismos.') 
-
+    figcaption.mb-5 #[b Nota.] Tomado y adaptado de Nalda, V. (s.f.). 
 
     h5(data-aos="fade-down") También encontramos varios tipos de #[i machine learning]. 
 
@@ -168,9 +168,9 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 8.
           span Aprendizaje supervisado 
-        .bg9.p-4
+        .bg9.p-4.mb-1
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/60.svg', alt='La imagen representa el aprendizaje por refuerzo, como un agente que toma una acción y obtiene una recompensa, inmerso en un ambiente, a través de sus acciones logran obtener o un premio o una penalización.') 
-    
+        figcaption #[b Nota.] Tomado y adaptado de Jurado, M. (2024).
 
     Separador 
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
